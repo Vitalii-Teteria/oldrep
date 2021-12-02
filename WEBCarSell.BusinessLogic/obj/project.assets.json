@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "WEBCarSell.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/WEBCarSell.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WEBCarSell.DataAccess.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WEBCarSell.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../WEBCarSell.DataAccess/WEBCarSell.DataAccess.csproj",
+      "msbuildProject": "../WEBCarSell.DataAccess/WEBCarSell.DataAccess.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "WEBCarSell.DataAccess >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Vitalii\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
