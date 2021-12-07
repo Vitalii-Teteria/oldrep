@@ -7,17 +7,11 @@ using WEBCarSell.DataAccess.Interfaces;
 
 namespace WEBCarSell.DataAccess.Entities
 {
-    public class Producer : ISoftDeletable
+    public class Car_body : ISoftDeletable
     {
         public Guid Id { get; set; }
 
         public string Name { get; set; }
-
-        public string Country { get; set; }
-
-        public string Phone { get; set; }
-
-        public string Email { get; set; }
 
         public bool IsDeleted { get; set; }
     }
