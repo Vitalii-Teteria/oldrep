@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
       "projectName": "WEBCarSell.BusinessLogic",
-      "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
+      "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
       "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.BusinessLogic\\obj\\",
+      "outputPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
+            "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
             }
           }
         }

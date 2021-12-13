@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {}
+    "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
+    "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
         "projectName": "WEBCarSell.DataAccess",
-        "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",
