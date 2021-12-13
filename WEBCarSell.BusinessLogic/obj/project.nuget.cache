@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H0DTwN2bAKNKgKbDMRTAmOPrBWCBg7+z94eU8+Ai42SQwZdNmOK5EorPKOIgX+qZ46CFIq44bkrILqZUa1cQCg==",
+  "dgSpecHash": "5CQPjQIvPHbEumgNPorBHf5jbGSdTBW+8mrplbUI2PjABXWvkkMT1B+Y0Uz513LMJIDrcThPATZsVIcGeaRlcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
