@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TestAnonotation/1.0.0": {
+        "dependencies": {
+          "WEBCarSell.DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "TestAnonotation.dll": {}
+        }
+      },
+      "WEBCarSell.DataAccess/1.0.0": {
+        "runtime": {
+          "WEBCarSell.DataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestAnonotation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WEBCarSell.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
