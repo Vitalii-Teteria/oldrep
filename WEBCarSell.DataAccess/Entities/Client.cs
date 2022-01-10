@@ -25,7 +25,7 @@ namespace WEBCarSell.DataAccess.Entities
         public string Phone { get; set; }
 
         [Required(AllowEmptyStrings =false)]
-        [DataType(DataType.EmailAddress)]
+        [EmailAddress]
         public string Email { get; set; }
 
         public bool IsDeleted { get; set; }

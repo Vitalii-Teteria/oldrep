@@ -16,9 +16,9 @@ namespace WEBCarSell.DataAccess.Entities
         [StringLength(40, MinimumLength = 3)]
         public string Name { get; set; }
 
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
-        [DataType(DataType.Date), Required]
-        public DateTime Year { get; set; }
+        
+        [Required]
+        public int Year { get; set; }
 
         [Required(AllowEmptyStrings =false)]
         public float Mileage { get; set; }
@@ -48,5 +48,14 @@ namespace WEBCarSell.DataAccess.Entities
 
         [Required(AllowEmptyStrings = false)]
         public Region Region { get; set; }
+    }
+
+    public class Photos 
+    {
+        public int Id { get; private set; }
+
+        public string PhotoName { get; private set; }
+
+        public byte[] Data { get; private set; }
     }
 }
