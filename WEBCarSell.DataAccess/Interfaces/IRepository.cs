@@ -25,5 +25,6 @@ namespace WEBCarSell.DataAccess.Interfaces
         Task<bool> IfExist<TEntity>(Expression<Func<TEntity, bool>> predicate) where TEntity : class;
 
         Task<TEntity> SearchByName<TEntity>(TEntity entity) where TEntity : class;
+
     }
 }

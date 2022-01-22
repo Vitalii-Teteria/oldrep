@@ -15,8 +15,7 @@ namespace WEBCarSell.DataAccess.Entities
         [Required(AllowEmptyStrings = false)]
         [StringLength(40, MinimumLength = 3)]
         public string Name { get; set; }
-
-        
+       
         [Required]
         public int Year { get; set; }
 
@@ -41,7 +40,7 @@ namespace WEBCarSell.DataAccess.Entities
         public bool IsDeleted { get; set; }
 
         [Required(AllowEmptyStrings = false)]
-        public Price Price { get; set; }
+        public int Price { get; set; }
 
         [Required(AllowEmptyStrings = false)]
         public Car_body Body { get; set; }
