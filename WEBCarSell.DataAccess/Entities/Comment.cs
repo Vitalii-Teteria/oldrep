@@ -16,7 +16,7 @@ namespace WEBCarSell.DataAccess.Entities
         public string Comments { get; set; }
 
         [Required]
-        public Client Client { get; set; }
+        public List<Client> Client { get; set; }
 
         [Required(ErrorMessage = "Phone Number Required!")]
         [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$",

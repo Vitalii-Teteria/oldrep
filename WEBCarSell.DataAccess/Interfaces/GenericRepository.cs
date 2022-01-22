@@ -56,5 +56,28 @@ namespace WEBCarSell.DataAccess.Interfaces
         {
             return await _dbContext.Set<TEntity>().AnyAsync(predicate);
         }
+
+        //public async Task<IEnumerable<TEntity>> GetWhere<TEntity>(
+        //     Expression<Func<TEntity, bool>> predicate = null,
+        //     Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+        //     Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null)
+        //     where TEntity : class
+        //{
+        //    IQueryable<TEntity> query = _dbContext.Set<TEntity>();
+
+        //    if (include != null)
+        //    {
+        //        query = include(query);
+        //    }
+
+        //    if (predicate != null)
+        //    {
+        //        query = query.Where(predicate);
+        //    }
+
+        //    return orderBy != null
+        //        ? await orderBy(query).ToListAsync()
+        //        : await query.ToListAsync();
+        //}
     }
 }
