@@ -26,9 +26,10 @@ namespace WEBCarSell.BusinessLogic.Services
             //return (await _repository.Create(model)).ToDto(); 
         }
 
-        public async Task<ModelDto> GetModelsList()
+        public async Task<ModelDto> GetModelsList(int modelId)
         {
-            
+            //var models = (await _repository.GetWhere<Model>(g => g.Id == modelId, include: g => g.Include(g => g.Name).ThenInclude(g => g.Price))).Select(g => g.Name).FirstOrDefault();
+            //return models.Select(q => q.ToDto()).ToList();
             throw new ArgumentNullException();
             
         }
@@ -41,22 +42,31 @@ namespace WEBCarSell.BusinessLogic.Services
 
         public async Task<CommentDto> GetComments()
         {
+            //var result = await _repository.GetAll<Comment>
             throw new ArgumentNullException();
         }
 
-        public async Task<ClientDto> GetClient()
+        public async Task<ClientDto> GetClientById(int id)
         {
+            //var result = await _repository.GetWhere<Client>(x => x.Id == id);
             throw new ArgumentNullException();
         }
 
         public async Task<RegionDto> GetModelByRegion(int id)
         {
+            //var result = await _repository.GetWhere<Region>(x => x.Id == id);
             throw new ArgumentNullException();
         }
 
-        public async Task<EmployeeDto> GetEmployee()
+        public async Task<EmployeeDto> GetEmployee(int id)
         {
+           // var employee = await _repository.GetWhere<Employee>(x => x.Id == id);
             throw new ArgumentNullException();
+        }
+
+        public async Task<bool> IfExist(Guid carId) 
+        {
+            return await _repository.IfExist<Model>(x => x.Id == carId);
         }
     }
 }

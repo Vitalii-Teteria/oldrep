@@ -17,5 +17,6 @@ namespace WEBCarSell.BusinessLogic.Interfaces
         Task<IEnumerable<OrderDto>> GetOrder(OrderDto model);
         Task<IEnumerable<RegionDto>> GetModelByRegion(RegionDto model);
         Task<IEnumerable<EmployeeDto>> GetEmployee(EmployeeDto model);
+        Task<IEnumerable<ModelDto>> IfExist(ModelDto model);
     }
 }
