@@ -81,11 +81,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\TestAnonotation\\TestAnonotation.csproj",
+      "projectUniqueName": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\TestAnonotation\\TestAnonotation.csproj",
       "projectName": "TestAnonotation",
-      "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\TestAnonotation\\TestAnonotation.csproj",
+      "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\TestAnonotation\\TestAnonotation.csproj",
       "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\TestAnonotation\\obj\\",
+      "outputPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\TestAnonotation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,8 +102,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
+            "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
             }
           }
         }
