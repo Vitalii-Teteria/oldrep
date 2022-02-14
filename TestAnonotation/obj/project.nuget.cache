@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5V5Vc/LienJojLxfhqo0pLzT5Pik36Sbpc5ll8igtGRdCy2Ixo+PcQ4HEGFWohsGwvBr5Vp0vraIKy+uMMRzrw==",
+  "dgSpecHash": "ikMmLhebAnya9x6daUPkaHiG9qYcbUiGbmzczPJdglns0OCGZ5BD56msYWjgVii3q2l37xbvg3OYqKwcdTlENg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\TestAnonotation\\TestAnonotation.csproj",
+  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\TestAnonotation\\TestAnonotation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vitalii\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],

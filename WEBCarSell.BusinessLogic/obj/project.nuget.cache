@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9LJBADkEQk9eXUHKVky6GaTs5hVC/kqq7OefQIwy6PFezySSpOZHTrnRXBOsdLleskweZf7apgL16pRsnrPKXA==",
+  "dgSpecHash": "DRfOjoY8lq3vjiFrBhvDh5DoPPfHYju8JYBeyGhpvJnO0VrBsjcG6gWmv4h89A8G2cbMdjWHdALt11zvABUMtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vitalii\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],

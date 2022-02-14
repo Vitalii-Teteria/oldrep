@@ -27,7 +27,7 @@ namespace WEBCarSell.BusinessLogic.DTO
 
         public List<Brand> Brand { get; set; }
 
-        public Price Price { get; set; }
+        public int Price { get; set; }
 
         public Car_body Body { get; set; }
 
