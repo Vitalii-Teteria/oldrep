@@ -5,7 +5,6 @@ C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.runtimeconfig.json
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.runtimeconfig.dev.json
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.dll
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\ref\WEBCarSell.dll
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.pdb
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.Views.dll
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.Views.pdb
@@ -18,7 +17,6 @@ C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.RazorAssemblyInfo.cache
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.RazorAssemblyInfo.cs
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\staticwebassets\WEBCarSell.StaticWebAssets.Manifest.cache
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\staticwebassets\WEBCarSell.StaticWebAssets.xml
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\scopedcss\bundle\WEBCarSell.styles.css
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.TagHelpers.input.cache
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.TagHelpers.output.cache
@@ -38,3 +36,5 @@ C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\ref\WEBCarS
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.pdb
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.genruntimeconfig.cache
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.csproj.CopyComplete
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.StaticWebAssets.xml
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell\obj\Debug\net5.0\refint\WEBCarSell.dll

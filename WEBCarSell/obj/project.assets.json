@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell\\WEBCarSell.csproj",
+      "projectUniqueName": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
       "projectName": "WEBCarSell",
-      "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell\\WEBCarSell.csproj",
+      "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
       "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WEBCarSell\\WEBCarSell\\obj\\",
+      "outputPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
