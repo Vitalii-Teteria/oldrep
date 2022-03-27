@@ -1,0 +1,5 @@
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Release\net5.0\WEBCarSell.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Release\net5.0\WEBCarSell.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Release\net5.0\WEBCarSell.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Release\net5.0\WEBCarSell.DataAccess.AssemblyInfo.cs
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Release\net5.0\WEBCarSell.DataAccess.csproj.CoreCompileInputs.cache

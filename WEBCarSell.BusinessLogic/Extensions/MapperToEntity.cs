@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WEBCarSell.BusinessLogic.DTO;
 using WEBCarSell.DataAccess.Entities;
+using WEBCarSell.BusinessLogic.DTO;
 
 namespace WEBCarSell.BusinessLogic.Extensions
 {
-    public static class MapperToDto
+    public static class MapperToEntity 
     {
-        public static ModelDto ToModelDto(this Model model) 
+        public static Model ToEntity(this ModelDto model)
         {
             return model == null ? null :
-                new ModelDto
+                new Model
                 {
                     Id = model.Id,
                     Name = model.Name,
-                    Year= model.Year,
+                    Year = model.Year,
                     Mileage = model.Mileage,
                     Engine_Volume = model.Engine_Volume,
                     Color = model.Color,
@@ -29,36 +29,34 @@ namespace WEBCarSell.BusinessLogic.Extensions
                     Brand = model.Brand
                 };
         }
-
-        public static ClientDto ToClientDto(this Client model) 
+        public static Client ToEntity(this ClientDto model)
         {
             return model == null ? null :
-                new ClientDto 
+                new Client
                 {
-                    Id= model.Id,
-                    Name= model.Name,
-                    City= model.City,
-                    Phone= model.Phone,
-                    Email= model.Email
+                    Id = model.Id,
+                    Name = model.Name,
+                    City = model.City,
+                    Phone = model.Phone,
+                    Email = model.Email
                 };
         }
-        public static EmployeeDto ToEmployeeDto(this Employee model) 
+        public static Employee ToEntity(this EmployeeDto model)
         {
             return model == null ? null :
-                new EmployeeDto 
+                new Employee
                 {
-                   Name = model.Name,
-                   Phone = model.Phone,
-                   Email = model.Email
+                    Name = model.Name,
+                    Phone = model.Phone,
+                    Email = model.Email
                 };
         }
-
-        public static RegionDto ToRegionDto(this Region model) 
+        public static Region ToEntity(this RegionDto model)
         {
             return model == null ? null :
-                new RegionDto
+                new Region
                 {
-                    Name= model.Name 
+                    Name = model.Name
                 };
         }
     }

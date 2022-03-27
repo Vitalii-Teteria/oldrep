@@ -9,14 +9,14 @@ namespace WEBCarSell.BusinessLogic.Interfaces
 {
     public interface ICarSellService 
     {
-        Task<IEnumerable<ModelDto>> AddModel(ModelDto model);
+        Task<ModelDto> AddModel(ModelDto model);
         Task<IEnumerable<ModelDto>> GetModelsList(ModelDto model);
-        Task<IEnumerable<ModelDto>> GetModelById(int id);
-        Task<IEnumerable<CommentDto>> GetComments(CommentDto model);
-        Task<IEnumerable<ClientDto>> GetClient(ClientDto model);      
-        Task<IEnumerable<OrderDto>> GetOrder(OrderDto model);
-        Task<IEnumerable<RegionDto>> GetModelByRegion(RegionDto model);
-        Task<IEnumerable<EmployeeDto>> GetEmployee(EmployeeDto model);
-        Task<IEnumerable<ModelDto>> IfExist(ModelDto model);
+        Task<ModelDto> GetModelById(int id);
+        Task<CommentDto> GetComments(CommentDto model);
+        Task<ClientDto> GetClient(ClientDto model);      
+        Task<OrderDto> GetOrder(OrderDto model);
+        Task<RegionDto> GetModelByRegion(RegionDto model);
+        Task<EmployeeDto> GetEmployee(EmployeeDto model);
+        Task<ModelDto> IfExist(ModelDto model);
     }
 }

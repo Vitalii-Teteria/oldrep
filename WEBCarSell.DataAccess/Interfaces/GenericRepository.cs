@@ -4,6 +4,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace WEBCarSell.DataAccess.Interfaces
 {
@@ -49,7 +51,7 @@ namespace WEBCarSell.DataAccess.Interfaces
         public async Task Update<TEntity>(TEntity entity) where TEntity : class 
         {
             _dbContext.Entry(entity).State = EntityState.Modified;
-            return _dbContext.SaveChanges();
+            return await _dbContext.SaveChanges();
         }
 
         public async Task<bool> IfExist<TEntity>(Expression<Func<TEntity, bool>> predicate) where TEntity : class 
@@ -57,27 +59,27 @@ namespace WEBCarSell.DataAccess.Interfaces
             return await _dbContext.Set<TEntity>().AnyAsync(predicate);
         }
 
-        //public async Task<IEnumerable<TEntity>> GetWhere<TEntity>(
-        //     Expression<Func<TEntity, bool>> predicate = null,
-        //     Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
-        //     Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null)
-        //     where TEntity : class
-        //{
-        //    IQueryable<TEntity> query = _dbContext.Set<TEntity>();
+        public async Task<IEnumerable<TEntity>> GetWhere<TEntity>(
+             Expression<Func<TEntity, bool>> predicate = null,
+             Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+             Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null)
+             where TEntity : class
+        {
+            IQueryable<TEntity> query = _dbContext.Set<TEntity>();
 
-        //    if (include != null)
-        //    {
-        //        query = include(query);
-        //    }
+            if (include != null)
+            {
+                query = include(query);
+            }
 
-        //    if (predicate != null)
-        //    {
-        //        query = query.Where(predicate);
-        //    }
+            if (predicate != null)
+            {
+                query = query.Where(predicate);
+            }
 
-        //    return orderBy != null
-        //        ? await orderBy(query).ToListAsync()
-        //        : await query.ToListAsync();
-        //}
+            return orderBy != null
+                ? await orderBy(query).ToListAsync()
+                : await query.ToListAsync();
+        }
     }
 }
