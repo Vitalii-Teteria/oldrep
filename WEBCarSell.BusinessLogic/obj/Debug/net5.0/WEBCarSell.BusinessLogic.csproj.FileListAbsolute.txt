@@ -1,0 +1,5 @@
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.BusinessLogic\obj\Debug\net5.0\WEBCarSell.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.BusinessLogic\obj\Debug\net5.0\WEBCarSell.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.BusinessLogic\obj\Debug\net5.0\WEBCarSell.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.BusinessLogic\obj\Debug\net5.0\WEBCarSell.BusinessLogic.AssemblyInfo.cs
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.BusinessLogic\obj\Debug\net5.0\WEBCarSell.BusinessLogic.csproj.CoreCompileInputs.cache
