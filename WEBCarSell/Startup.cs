@@ -8,6 +8,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WEBCarSell.BusinessLogic.Interfaces;
+using WEBCarSell.BusinessLogic.Services;
+using WEBCarSell.DataAccess.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace WEBCarSell
 {
@@ -24,6 +28,10 @@ namespace WEBCarSell
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddHttpClient();
+            services.AddScoped<IRepository, GenericRepository>();
+            services.AddScoped<ICarSellService, CarSellService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

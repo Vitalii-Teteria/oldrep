@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Query;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -16,15 +17,18 @@ namespace WEBCarSell.DataAccess.Interfaces
 
         Task<TEntity> Create<TEntity>(TEntity entity) where TEntity : class;
 
-        Task<TEntity> Update<TEntity>(TEntity entity) where TEntity : class;
+        Task Update<TEntity>(TEntity entity) where TEntity : class;
 
-        Task<TEntity> Delete<TEntity>(TEntity entity) where TEntity : ISoftDeletable;
+        Task Delete<TEntity>(TEntity entity) where TEntity : ISoftDeletable;
 
-        Task<TEntity> HardDelete<TEntity>(TEntity entity) where TEntity : class;
+        Task HardDelete<TEntity>(TEntity entity) where TEntity : class;
 
         Task<bool> IfExist<TEntity>(Expression<Func<TEntity, bool>> predicate) where TEntity : class;
 
-        Task<TEntity> SearchByName<TEntity>(TEntity entity) where TEntity : class;
-
+        Task<IEnumerable<TEntity>> GetWhere<TEntity>(
+        Expression<Func<TEntity, bool>> predicate = null,
+        Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
+        Func<IQueryable<TEntity>, IIncludableQueryable<TEntity, object>> include = null)
+        where TEntity : class;
     }
 }
