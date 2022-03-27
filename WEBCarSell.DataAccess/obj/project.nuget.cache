@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "xGfwOWHjKHYG6KZ2jTO8nPvYC2t+ZeeHkd1+XKman/r3APakoVaacxhmCHuPgHOczru1bgY8R1dg1+1ePyCY1A==",
+=======
+  "dgSpecHash": "pty1R8axIS8+5auOkf9SHwbxWWP6g3yYG2hN5qUfvIq0/IzeDXU7uSrbOdU6WVVtlJddNb1ax9EqGiL+HJFguw==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
   "expectedPackageFiles": [

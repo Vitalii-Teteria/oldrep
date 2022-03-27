@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "VC4fEeT6NR+ZT6WVdaYDc+Xh5iehzgSmzWoSGTQtzK1DvRoInfUd4SJlAun+ooDjKqEflT5FFUBWxnTnzepBAA==",
+=======
+  "dgSpecHash": "N3J9obeA1Qe6BP1cVKhGp2pVgHHLesHmo9Mm847tAaH3qsk6M/ZM/Vuch3T4oxiIgH1IZlr+phEuQZNQRuQ9+A==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
   "expectedPackageFiles": [
