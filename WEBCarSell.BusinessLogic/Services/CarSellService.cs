@@ -15,16 +15,16 @@ namespace WEBCarSell.BusinessLogic.Services
     {
         private readonly IRepository _repository;
 
-        public async Task<ModelDto> AddModel(ModelDto model)
-        {
-            if (model == null) 
-            {
-                throw new ArgumentNullException(nameof(model), "model is empty");
-            }
+        //public async Task<ModelDto> AddModel(ModelDto model)
+        //{
+        //    if (model == null) 
+        //    {
+        //        throw new ArgumentNullException(nameof(model), "model is empty");
+        //    }
 
-            //var models = model.ToEntity();
-            //return (await _repository.Create(model)).ToDto(); 
-        }
+        //    //var models = model.ToEntity();
+        //    //return (await _repository.Create(model)).ToDto(); 
+        //}
 
         public async Task<ModelDto> GetModelsList(int modelId)
         {
