@@ -36,5 +36,4 @@ C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\ref\WEBCarS
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.pdb
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.genruntimeconfig.cache
 C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell\obj\Debug\net5.0\WEBCarSell.csproj.CopyComplete
-C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell\bin\Debug\net5.0\WEBCarSell.StaticWebAssets.xml
 C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell\obj\Debug\net5.0\refint\WEBCarSell.dll
