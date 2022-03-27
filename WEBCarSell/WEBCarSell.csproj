@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WEBCarSell.BusinessLogic\WEBCarSell.BusinessLogic.csproj" />
+    <ProjectReference Include="..\WEBCarSell.DataAccess\WEBCarSell.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
