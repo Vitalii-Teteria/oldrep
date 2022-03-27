@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj": {}
+    "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj": {
+    "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
+        "projectUniqueName": "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
         "projectName": "WEBCarSell",
-        "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
+        "projectPath": "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
         "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell\\obj\\",
+        "outputPath": "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",

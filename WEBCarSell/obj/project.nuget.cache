@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "K99koxajnd31Pweq+Mytv9YtCSZxnXA47cxgQOFnVaquw4o3vf3Q5HpAwbRm2OPmhpFyOTVDmA/feEe+I9RcWw==",
+  "dgSpecHash": "1Vag/kBCM4EJX1gsPUufYQvfrfKj1a5AGSY+jGUcbvXKZAiqa0rp2oz5J3IWZxtxsysmmBFwB5r45W+FjICYkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
+  "projectFilePath": "C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\WEBCarSell.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Vitalii\\source\\Repos\\WebCarSell\\WEBCarSell\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
