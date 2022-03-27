@@ -1,12 +1,5 @@
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\bin\Debug\net5.0\WEBCarSell.DataAccess.deps.json
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\bin\Debug\net5.0\WEBCarSell.DataAccess.dll
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\bin\Debug\net5.0\ref\WEBCarSell.DataAccess.dll
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\bin\Debug\net5.0\WEBCarSell.DataAccess.pdb
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.csproj.AssemblyReference.cache
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.AssemblyInfoInputs.cache
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.AssemblyInfo.cs
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.dll
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\ref\WEBCarSell.DataAccess.dll
-C:\Users\Vitalii\source\repos\WEBCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.pdb
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.AssemblyInfo.cs
+C:\Users\Vitalii\source\repos\WebCarSell\WEBCarSell.DataAccess\obj\Debug\net5.0\WEBCarSell.DataAccess.csproj.CoreCompileInputs.cache
