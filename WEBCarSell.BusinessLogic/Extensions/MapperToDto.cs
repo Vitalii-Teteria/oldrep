@@ -10,7 +10,7 @@ namespace WEBCarSell.BusinessLogic.Extensions
 {
     public static class MapperToDto
     {
-        public static ModelDto ToDto(this Model model) 
+        public static ModelDto ToЬModelDto(this Model model) 
         {
             return model == null ? null :
                 new ModelDto
@@ -23,7 +23,33 @@ namespace WEBCarSell.BusinessLogic.Extensions
                     Color = model.Color,
                     Transmission = model.Transmission,
                     Drive = model.Drive,
-                    Price = model.Price
+                    Price = model.Price,
+                    Body = model.Body,
+                    Region = model.Region,
+                    Brand = model.Brand
+                };
+        }
+
+        public static ClientDto ToClientDto(this Client model) 
+        {
+            return model == null ? null :
+                new ClientDto 
+                {
+                    Id= model.Id,
+                    Name= model.Name,
+                    City= model.City,
+                    Phone= model.Phone,
+                    Email= model.Email
+                };
+        }
+        public static EmployeeDto ToEmployeeDto(this Employee model) 
+        {
+            return model == null ? null :
+                new EmployeeDto 
+                {
+                   Name = model.Name,
+                   Phone = model.Phone,
+                   Email = model.Email
                 };
         }
     }

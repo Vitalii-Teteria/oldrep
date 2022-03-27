@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj": {}
+    "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj": {
+    "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
         "projectName": "WEBCarSell.BusinessLogic",
-        "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.BusinessLogic\\WEBCarSell.BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
+              "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj"
               }
             }
           }
@@ -58,18 +58,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
+    "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
         "projectName": "WEBCarSell.DataAccess",
-        "projectPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.DataAccess\\WEBCarSell.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Vitalii\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitalii\\Source\\Repos\\WebCarSell\\WEBCarSell.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Vitalii\\source\\repos\\WebCarSell\\WEBCarSell.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitalii\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
